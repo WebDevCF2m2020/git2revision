@@ -1,2 +1,4 @@
+#phpstorm
 .idea
+#secure files
 config.php
