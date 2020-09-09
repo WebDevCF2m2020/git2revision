@@ -1,0 +1,6 @@
+<?php
+define("DB_HOST","localhost");
+define("DB_NAME","git2revision");
+define("DB_LOGIN","root");
+define("DB_PASS","");
+define("DB_CHARSET","UTF8");
