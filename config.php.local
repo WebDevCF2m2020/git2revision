@@ -1,16 +1,8 @@
 <?php
-<<<<<<< HEAD
-
 //BD CONNECTION
 define("DB_HOST", "localhost");
 define("DB_NAME", "git2revision");
 define("DB_LOGIN", "root");
 define("DB_PWD", "");
 define("DB_CHARSET", "utf8");
-=======
-define("DB_HOST","localhost");
-define("DB_NAME","git2revision");
-define("DB_LOGIN","root");
-define("DB_PASS","");
-define("DB_CHARSET","UTF8");
->>>>>>> be07f9d1f48fd7c28b7dcbfd8ae487248dc97442
+
