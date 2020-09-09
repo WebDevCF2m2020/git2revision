@@ -3,6 +3,7 @@
  <TITLE>New Document</TITLE>
 </HEAD>
 <BODY>
+<p>branche function</p>
 <?
  function connectDB() {
     $dbc = mysqli_connect(DB_HOST, DB_NAME, DB_LOGIN, DB_PASS, DB_CHARSET);
