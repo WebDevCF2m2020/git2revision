@@ -1,2 +1,9 @@
+# phpstorm
 .idea
+# Netbeans
+/nbproject
+
+# secure files
 config.php
+
+
