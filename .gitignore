@@ -7,4 +7,4 @@
 config.php
 
 # backup files from Workbench
-data/git2revision.mwb.bak
+/data/git2revision.mwb.bak
