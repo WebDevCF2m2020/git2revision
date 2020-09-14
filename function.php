@@ -1,5 +1,8 @@
 <?php
 
+// pour tester notre fonction, on doit avoir les variables contenues dans config.php, l'utilisation du require_once ne nous oblige pas de le retirer lors de l'appel dans un contrôleur, car si déjà chargé, il ne se passe rien
+require_once "config.php";
+
 // connect DB
 function connectDB(){
 
@@ -8,6 +11,7 @@ function connectDB(){
 
     // gestionnaire d'erreur de connexion
     if(mysqli_connect_errno()){
+        // arrêt total du process PHP
         die("Erreur lors de la connexion : <br>N° ".mysqli_connect_errno()."<br>Description: ".mysqli_connect_error());
     }
     // on applique le charset définit dans config.php
@@ -17,4 +21,6 @@ function connectDB(){
     return $db;
 
 }
-
+// pour tester le fichier de connexion
+// $db = connectDB();
+// var_dump($db);
