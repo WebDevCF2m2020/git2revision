@@ -5,3 +5,6 @@
 
 # secure files
 config.php
+
+# backup files from Workbench
+/data/git2revision.mwb.bak

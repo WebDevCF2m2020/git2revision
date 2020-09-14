@@ -7,4 +7,4 @@ define('DB_NAME', 'git2revision');
 define('DB_LOGIN', 'root');
 define('DB_PASS', '');
 define('DB_CHARSET', 'utf8');
-
+define('DB_PORT', '3308');
