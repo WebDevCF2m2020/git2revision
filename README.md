@@ -13,3 +13,4 @@ Importez data/premiere-exportation-structure.sql
 #### Tickets
 https://github.com/WebDevCF2m2020/git2revision/projects/2
 #### Issues
+https://github.com/WebDevCF2m2020/git2revision/issues
