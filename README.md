@@ -19,4 +19,4 @@ https://github.com/WebDevCF2m2020/git2revision/issues
 Vous devez installer composer sur vos machines au préalable puis taper cette commande:
 
         composer require "twig/twig:^3.0"
-        
+Ensuite mettez le dossier vendor dans le .gitignore AVANT de faire un commit!        

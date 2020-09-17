@@ -8,3 +8,6 @@ config.php
 
 # backup files from Workbench
 /data/git2revision.mwb.bak
+
+# vendor dependencies
+/vendor
