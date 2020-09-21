@@ -9,10 +9,14 @@ require_once 'vendor/autoload.php';
 // connection
 $db = connectDB();
 
-// test Twig
-$loader = new \Twig\Loader\ArrayLoader([
-    'index' => '<html>Coucou {{ name }} {{ surname }}!</html>',
+// Twig loading
+// link to template's folder
+$loader = new \Twig\Loader\FilesystemLoader('view');
+// create Twig Environment
+$twig = new \Twig\Environment($loader, [
+    /*
+    'cache' => '/path/to/compilation_cache',
+    */
 ]);
-$twig = new \Twig\Environment($loader);
 
-echo $twig->render('index', ['name' => 'Michaël','surname'=>"Pitz"]);
+echo $twig->render('base.html.twig', ['name' => 'Michaël']);
