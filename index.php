@@ -16,4 +16,4 @@ $twig = new \Twig\Environment($loader, [
     */
     ]);
 
-echo $twig->render('base.html.twig');
+echo $twig->render('img.html.twig');
