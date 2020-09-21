@@ -3,7 +3,7 @@
 require_once "config.php";
 require_once "function.php";
 
-// vendor dependencies
+// vendor dependencies (Twig)
 require_once 'vendor/autoload.php';
 
 // connection
@@ -18,5 +18,7 @@ $twig = new \Twig\Environment($loader, [
     'cache' => '/path/to/compilation_cache',
     */
 ]);
+
+// not into front controller
 // render a template with variables name and date in a array
 echo $twig->render('base.html.twig', ['name' => 'Michaël','date'=>date("Y-m-d H:i:s")]);
