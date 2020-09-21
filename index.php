@@ -5,3 +5,6 @@ require_once "function.php";
 
 // connection
 $db = connectDB();
+
+//test Twig
+$loader = new \Twig\
