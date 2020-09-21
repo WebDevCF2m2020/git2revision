@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 // pour tester notre fonction, on doit avoir les variables contenues dans config.php, l'utilisation du require_once ne nous oblige pas de le retirer lors de l'appel dans un contrôleur, car si déjà chargé, il ne se passe rien
@@ -24,3 +25,20 @@ function connectDB(){
 // pour tester le fichier de connexion
 // $db = connectDB();
 // var_dump($db);
+=======
+<HTML>
+<HEAD>
+ <TITLE>New Document</TITLE>
+</HEAD>
+<BODY>
+<p>branche function</p>
+<?
+ function connectDB() {
+    $dbc = mysqli_connect(DB_HOST, DB_NAME, DB_LOGIN, DB_PASS, DB_CHARSET);
+    if(!$dbc) die("Impossible de se connecter: " . mysqli_error($dbc));
+    return $dbc;
+}
+?>
+</BODY>
+</HTML>
+>>>>>>> 546ab23aea6647845c7b9ab0909f33793f963c4c
