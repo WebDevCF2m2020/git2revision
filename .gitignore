@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-config.php
-.idea
-=======
-.idea
-config.php
->>>>>>> 9493da5059f0f1ff570aa47d93f1489e30f1f1e7
-=======
 # phpstorm
 .idea
 # Netbeans
@@ -20,4 +11,3 @@ config.php
 
 # vendor dependencies
 /vendor
->>>>>>> 94cce2317aaff94bfaffd00d1c9a120b2060989b
