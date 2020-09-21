@@ -18,5 +18,5 @@ $twig = new \Twig\Environment($loader, [
     'cache' => '/path/to/compilation_cache',
     */
 ]);
-
-echo $twig->render('base.html.twig', ['name' => 'Michaël']);
+// render a template with variables name and date in a array
+echo $twig->render('base.html.twig', ['name' => 'Michaël','date'=>date("Y-m-d H:i:s")]);
