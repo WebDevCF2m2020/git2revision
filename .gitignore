@@ -10,4 +10,8 @@ config.php
 /data/git2revision.mwb.bak
 
 # vendor dependencies
+<<<<<<< HEAD
 /vendor
+=======
+/vendor
+>>>>>>> 7e181e26b1803c71ec1488354183b08bc7854dd0
