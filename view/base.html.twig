@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Titre</title>
-</head>
-<body>
-coucou {{ name }}, Nous somme les {{ date }}
-</body>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome {{name}}{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+    </head>
+    <body>
+        {% block body %}
+        Welcome {{name}}, the date is {{ date }}
+        {% endblock %}
+        {% block javascripts %}{% endblock %}
+    </body>
 </html>
