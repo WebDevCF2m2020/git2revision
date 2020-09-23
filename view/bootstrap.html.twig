@@ -5,6 +5,7 @@
 {% endblock %}
 
 {% block body %}
+
     <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
         <div class="container">
             <a href="./" class="navbar-brand">Accueil</a>
@@ -27,7 +28,7 @@
         </div>
     </div>
 
-
+{% block contenu %}
     <div class="container">
 
     <div class="page-header" id="banner">
@@ -40,6 +41,7 @@
         </div>
         https://bootswatch.com/superhero/
     </div>
+    {% endblock %}
 
 {% endblock %}
 {% block javascripts %}
