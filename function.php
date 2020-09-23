@@ -24,3 +24,4 @@ function connectDB(){
 // pour tester le fichier de connexion
 // $db = connectDB();
 // var_dump($db);
+je fais une connerie;
